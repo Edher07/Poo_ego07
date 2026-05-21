@@ -16,5 +16,5 @@ nombre_objeto = Transporte
 nombre_objeto.arrancar ()
 nombre_objeto.frenar("Freno de mano")
 nombre_objeto.cargarCombustible ("Gasolina regular")
-nombre_objeto.cargarPasaje ("Si , 25 personas")
+nombre_objeto.cargarPasaje ("25 personas")
 nombre_objeto.definirDestino("CDMX a Tijuana")

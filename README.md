@@ -20,7 +20,7 @@ git add .
 Crear un punto de control con los cambios realizados en el proyecto.
 
 ````shell
-git commit -m "CREATED .gitgnore"
+git commit -m "CREATED .gitignore"
 ````
 
 *CREATED - Crear nuevos archivos o directorios.

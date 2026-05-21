@@ -13,7 +13,7 @@ class Mesa:
         self.no_patas
 
         print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
+        print(f"Ancho total:{self.material}")
          print(f"Tipo de material:{self.material}")
         print(f"Tipo de material:{self.material}")
         print(f"Tipo de material:{self.material}")

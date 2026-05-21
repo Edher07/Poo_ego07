@@ -78,9 +78,9 @@ class Alumno():
 
     def solicitarBeca(self):
         if self.promedio >= 9.0:
-            print(f"{self.nombre} puede solicitar beca ✅")
-        else:
-            print(f"{self.nombre} no cumple el promedio para beca ❌")
+            print(f"{self.nombre} puede solicitar beca ")
+        :
+            print(f"{self.nombre} no cumple el promedio para beca ")
 
 
 # --- Crear objeto ---

@@ -1,6 +1,6 @@
 class Silla:
     def __init__ (self.material,ergonomia,portabilidad,no_partes,
-                  color,altura,reclinable,tamano,peso,diseno,t
+                  color,altura,reclinable,tamano,peso,diseno)
         self.material=material
         self.ergonomia=ergonomia
         self.portabilidad=portabilidad 

@@ -34,4 +34,9 @@ Sincronizar los cambios con el repositorio.
 ````shell
 git push -u origin main
 ````
+##5.Agregar Docstring a los métodos (*Documentar*)
 
+Agregar documentación a los métodos con una descripción, argumentos y y valores de retorno.
+
+````python
+````

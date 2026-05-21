@@ -1,10 +1,10 @@
 class Mesa:
-    def __init__ (self.material,ancho,diseño,tamaño,tipo,altura,color
+    def __init__ (self.material,ancho,diseño,tamano,tipo,altura,color
                   portabilidad,soporte,no_patas)
         self.material=material
         self.ancho=ancho
         self.diseño=diseño
-        self.tamaño=tamaño
+        self.tamano=tamano
         self.tipo=tipo
         self.altura=altura
         self.color=color
@@ -14,7 +14,7 @@ class Mesa:
 
         print(f"Tipo de material:{self.material}")
         print(f"Ancho total:{self.material}")
-         print(f"Tipo de material:{self.material}")
+        print(f"Tipo de material:{self.material}")
         print(f"Tipo de material:{self.material}")
         print(f"Tipo de material:{self.material}")
         print(f"Tipo de material:{self.material}")

@@ -10,19 +10,18 @@ class Mesa:
         self.color=color
         self.portabilidad=portabilidad
         self.soporte=soporte
-        self.no_patas
+        self.no_patas=no_patas
 
         print(f"Tipo de material:{self.material}")
-        print(f"Ancho total:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
-        print(f"Tipo de material:{self.material}")
+        print(f"Ancho total:{self.ancho}")
+        print(f"Tipo de diseño:{self.diseño}")
+        print(f"Tamaño total:{self.tamano}")
+        print(f"Tipo de mesa:{self.tipo}")
+        print(f"Altura total:{self.altura}")
+        print(f"Color:{self.color}")
+        print(f"Es portable:{self.portabilidad}")
+        print(f"Tiene soporte:{self.soporte}")
+        print(f"Número de patas:{self.no_patas}")
 
 class Mesa = Mesa (Plástico,85 cm,Minimalista,Mediano,Escolar,95 cm,Blanco,
                    True,True,4 Patas)

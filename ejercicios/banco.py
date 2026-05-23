@@ -26,17 +26,29 @@ class Banco:
         print(f" Horario de atención {self.horario_atencion}")
         print(f" Color del banco {self.color_banco}")
 
-banco1 = Banco(
-    no_clientes=5000,
-    no_elementos_seguridad=20,
-    no_edificios=10,
-    sistema_informatico="BancaNet",
-    nombre_banco="CitiBanamex",
-    no_cajeros=50,
-    fiable=True,
-    capital=15000000,
-    horario_atencion="9:00-16:00",
-    color_banco="Azul y Rojo"
-)
+class Banco = Banco(5000,20,10,BancaNet,Citibanamex,8,True,1500000,9:00-16:00,Azul y rojo)
 
-banco1.mostrar_info()
+class Banco ():
+    def __init__(self):
+        print("constructor")
+    def retirar(self):
+        print("Método uno")
+    def prestamo (self.parametro_uno):
+        print("Método dos: {parametro_uno}")
+    def saldo (self.parametro_uno):
+        print("Método tres: {parametro_uno}")
+    def afore (self.parametro_uno):
+        print("Método cuatro: {parametro_uno}")
+    def deuda (self.parametro_uno):
+        print("Método cinco: {parametro_uno}")
+
+nombre_objeto= Banco()
+nombre_objeto.retirar("3000")
+nombre_objeto.prestamo("15000")
+nombre_objeto.saldo("5000")
+nombre_objeto.afore("2000")
+nombre_objeto.deuda("0")
+
+
+
+

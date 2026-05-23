@@ -1,6 +1,7 @@
 class Perro:
-    def __init__ (self.tamano,traslado,tipo_raza,altura,color
-                  peso,genero,no_elementos,educado,temperamento,)
+    def __init__(self,tamano,traslado,tipo_raza,altura,color,
+                 peso,genero,no_elementos,educado,temperamento):
+    
         self.tamano=tamano
         self.traslado=traslado
         self.tipo_raza=tipo_raza
@@ -24,22 +25,21 @@ class Perro:
         print(f"Es educado:{self.educado}")
         print(f"Tipo de temperamento:{self.temperamento}")
 
-class Perro = Perro (Mediano,True,Husky,80 cm, Blanco con gris,
-                     50 kg ,Macho,5 ,True, Noble)
+        print("Mediano","True","Husky","80 cm","Blanco con gris",
+                     "50 kg" ,"Macho","5","True","Noble")
                    
 
     def __init__ (self):
         print ("constructor")
-
     def ladrar(self):
         print ("Método Uno")
-    def correr(self.parametro.uno):
+    def correr(self,parametro_uno):
         print ("Método Dos:{parametro.uno}")
-    def comer (self.parametro.uno):
+    def comer (self,parametro_uno):
         print ("Método Tres:{parametro.uno}")
-    def dormir (self.parametro.uno):
+    def dormir (self,parametro_uno):
         print ("Método Cuatro:{parametro.uno}")
-    def morder (self.parametro.uno):
+    def morder (self,parametro_uno):
         print ("Método Cinco:{parametro.uno}")
 
 nombre_objeto= Perro()

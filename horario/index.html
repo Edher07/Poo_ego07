@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Alumno - UTETULANCINGO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Contenedor principal */
+        .encabezado-tabla {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .encabezado-tabla td {
+            border: 1px solid #333;
+            padding: 6px;
+            font-size: 11px;
+        }
+
+        .titulo-institucion {
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            background-color: #fff;
+        }
+
+        .subtitulo-campus {
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            background-color: #2b305b;
+            color: white;
+            padding: 5px;
+        }
+
+        .titulo-horario {
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        .etiqueta-gris {
+            background-color: #cccccc;
+            font-weight: bold;
+            text-align: left;
+            width: 12%;
+        }
+
+        /* Estilos de la tabla del Horario */
+        .tabla-horario {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .tabla-horario th, .tabla-horario td {
+            border: 1px solid #333;
+            padding: 8px 5px;
+            vertical-align: middle;
+        }
+
+        /* Encabezado azul oscuro */
+        .tabla-horario th {
+            background-color: #1d2247;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            height: 40px;
+            text-transform: uppercase;
+        }
+
+        /* Columna de las horas */
+        .columna-hora {
+            font-weight: bold;
+            font-size: 11px;
+            background-color: #ffffff;
+            width: 8%;
+        }
+
+        /* Estilo del texto de las materias y profesores */
+        .materia {
+            font-weight: bold;
+            font-size: 10px;
+            display: block;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .profesor {
+            font-size: 9px;
+            color: #555;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        /* Ajuste de celdas vacías */
+        .vacia {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="encabezado-tabla">
+        <tr>
+            <td colspan="8" class="titulo-institucion">UTETULANCINGO</td>
+        </tr>
+        <tr>
+            <td colspan="8" class="subtitulo-campus">TULANCINGO</td>
+        </tr>
+        <tr>
+            <td colspan="6" class="titulo-horario">HORARIO ALUMNO</td>
+            <td colspan="2" style="font-size: 9px; text-align: right; border-left: none;">FECHA DE EMISIÓN: 03 DE MAYO DE 2026</td>
+        </tr>
+        <tr>
+            <td class="etiqueta-gris">PERIODO ESCOLAR</td>
+            <td colspan="2">MAYO - AGOSTO 2026</td>
+            <td class="etiqueta-gris">CARRERA</td>
+            <td colspan="3">TECNOLOGÍAS DE LA INFORMACIÓN E INNOVACIÓN DIGITAL</td>
+            <td style="width: 5%; background-color: #ccc;">3°</td>
+        </tr>
+        <tr>
+            <td class="etiqueta-gris">GRUPO</td>
+            <td colspan="2">31</td>
+            <td class="etiqueta-gris">TUTOR</td>
+            <td colspan="2"></td>
+            <td class="etiqueta-gris">TURNO</td>
+            <td>MATUTINO</td>
+        </tr>
+    </table>
+
+    <table class="tabla-horario">
+        <thead>
+            <tr>
+                <th style="width: 10%;">HORARIO</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIERCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+                <th>SABADO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="columna-hora">07:00 - 09:00</td>
+                <td>
+                    <span class="materia">Cálculo Integral</span>
+                    <span class="profesor">Oscar Rafael Salas Salgado</span>
+                </td>
+                <td>
+                    <span class="materia">Desarrollo del Pensamiento y Toma de Decisiones</span>
+                    <span class="profesor">María del Carmen Vera Jiménez</span>
+                </td>
+                <td>
+                    <span class="materia">Cálculo Integral</span>
+                    <span class="profesor">Oscar Rafael Salas Salgado</span>
+                </td>
+                <td>
+                    <span class="materia">Programación Orientada a Objetos</span>
+                    <span class="profesor">Salvador Hernández Mendoza</span>
+                </td>
+                <td>
+                    <span class="materia">Tópicos de Calidad para el Diseño de Software</span>
+                    <span class="profesor">Rigoberto García García</span>
+                </td>
+                <td class="vacia"></td>
+            </tr>
+            <tr>
+                <td class="columna-hora">09:00 - 10:00</td>
+                <td>
+                    <span class="materia">Tópicos de Calidad para el Diseño de Software</span>
+                    <span class="profesor">Rigoberto García García</span>
+                </td>
+                <td>
+                    <span class="materia">Programación Orientada a Objetos</span>
+                    <span class="profesor">Salvador Hernández Mendoza</span>
+                </td>
+                <td>
+                    <span class="materia">Bases de Datos</span>
+                    <span class="profesor">Oscar Lira Uribe</span>
+                </td>
+                <td>
+                    <span class="materia">Inglés III</span>
+                    <span class="profesor">Jetsabel Arianna Riveros Ramírez</span>
+                </td>
+                <td>
+                    <span class="materia">Bases de Datos</span>
+                    <span class="profesor">Oscar Lira Uribe</span>
+                </td>
+                <td class="vacia"></td>
+            </tr>
+            <tr>
+                <td class="columna-hora">10:00 - 11:00</td>
+                <td>
+                    <span class="materia">Tópicos de Calidad para el Diseño de Software</span>
+                    <span class="profesor">Rigoberto García García</span>
+                </td>
+                <td>
+                    <span class="materia">Programación Orientada a Objetos</span>
+                    <span class="profesor">Salvador Hernández Mendoza</span>
+                </td>
+                <td>
+                    <span class="materia">Bases de Datos</span>
+                    <span class="profesor">Oscar Lira Uribe</span>
+                </td>
+                <td>
+                    <span class="materia">Proyecto Integrador I</span>
+                    <span class="profesor">Elizabeth García Urbina</span>
+                </td>
+                <td>
+                    <span class="materia">Bases de Datos</span>
+                    <span class="profesor">Oscar Lira Uribe</span>
+                </td>
+                <td class="vacia"></td>
+            </tr>
+            <tr>
+                <td class="columna-hora">11:00 - 12:00</td>
+                <td>
+                    <span class="materia">Inglés III</span>
+                    <span class="profesor">Jetsabel Arianna Riveros Ramírez</span>
+                </td>
+                <td>
+                    <span class="materia">Tutoría</span>
+                    <span class="profesor">Oscar Lira Uribe</span>
+                </td>
+                <td>
+                    <span class="materia">Inglés III</span>
+                    <span class="profesor">Jetsabel Arianna Riveros Ramírez</span>
+                </td>
+                <td>
+                    <span class="materia">Proyecto Integrador I</span>
+                    <span class="profesor">Elizabeth García Urbina</span>
+                </td>
+                <td>
+                    <span class="materia">Programación Orientada a Objetos</span>
+                    <span class="profesor">Salvador Hernández Mendoza</span>
+                </td>
+                <td class="vacia"></td>
+            </tr>
+            <tr>
+                <td class="columna-hora">12:00 - 13:00</td>
+                <td>
+                    <span class="materia">Inglés III</span>
+                    <span class="profesor">Jetsabel Arianna Riveros Ramírez</span>
+                </td>
+                <td>
+                    <span class="materia">Proyecto Integrador I</span>
+                    <span class="profesor">Elizabeth García Urbina</span>
+                </td>
+                <td>
+                    <span class="materia">Inglés III</span>
+                    <span class="profesor">Jetsabel Arianna Riveros Ramírez</span>
+                </td>
+                <td>
+                    <span class="materia">Desarrollo del Pensamiento y Toma de Decisiones</span>
+                    <span class="profesor">María del Carmen Vera Jiménez</span>
+                </td>
+                <td>
+                    <span class="materia">Programación Orientada a Objetos</span>
+                    <span class="profesor">Salvador Hernández Mendoza</span>
+                </td>
+                <td class="vacia"></td>
+            </tr>
+            <tr>
+                <td class="columna-hora">13:00 - 14:00</td>
+                <td>
+                    <span class="materia">Bases de Datos</span>
+                    <span class="profesor">Oscar Lira Uribe</span>
+                </td>
+                <td>
+                    <span class="materia">Proyecto Integrador I</span>
+                    <span class="profesor">Elizabeth García Urbina</span>
+                </td>
+                <td>
+                    <span class="materia">Tópicos de Calidad para el Diseño de Software</span>
+                    <span class="profesor">Rigoberto García García</span>
+                </td>
+                <td>
+                    <span class="materia">Desarrollo del Pensamiento y Toma de Decisiones</span>
+                    <span class="profesor">María del Carmen Vera Jiménez</span>
+                </td>
+                <td class="vacia"></td>
+                <td class="vacia"></td>
+            </tr>
+            <tr>
+                <td class="columna-hora">14:00 - 15:00</td>
+                <td>
+                    <span class="materia">Programación Orientada a Objetos</span>
+                    <span class="profesor">Salvador Hernández Mendoza</span>
+                </td>
+                <td class="vacia"></td>
+                <td class="vacia"></td>
+                <td>
+                    <span class="materia">Tópicos de Calidad para el Diseño de Software</span>
+                    <span class="profesor">Rigoberto García García</span>
+                </td>
+                <td class="vacia"></td>
+                <td class="vacia"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
